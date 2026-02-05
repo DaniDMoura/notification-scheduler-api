@@ -1,10 +1,10 @@
-package tech.danilo.magalums.controller;
+package tech.danilo.scheduler.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import tech.danilo.magalums.dto.SchedulerNotificationDto;
-import tech.danilo.magalums.entity.Notification;
-import tech.danilo.magalums.service.NotificationService;
+import tech.danilo.scheduler.dto.SchedulerNotificationDto;
+import tech.danilo.scheduler.entity.Notification;
+import tech.danilo.scheduler.service.NotificationService;
 
 @RestController
 @RequestMapping("/notifications")

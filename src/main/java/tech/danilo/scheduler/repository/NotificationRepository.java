@@ -1,10 +1,9 @@
-package tech.danilo.magalums.repository;
+package tech.danilo.scheduler.repository;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import tech.danilo.magalums.entity.Channel;
-import tech.danilo.magalums.entity.Notification;
-import tech.danilo.magalums.entity.Status;
+import tech.danilo.scheduler.entity.Notification;
+import tech.danilo.scheduler.entity.Status;
 
 import java.time.LocalDateTime;
 import java.util.List;

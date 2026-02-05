@@ -1,8 +1,8 @@
-package tech.danilo.magalums.dto;
+package tech.danilo.scheduler.dto;
 
-import tech.danilo.magalums.entity.Channel;
-import tech.danilo.magalums.entity.Notification;
-import tech.danilo.magalums.entity.Status;
+import tech.danilo.scheduler.entity.Channel;
+import tech.danilo.scheduler.entity.Notification;
+import tech.danilo.scheduler.entity.Status;
 
 import java.time.LocalDateTime;
 

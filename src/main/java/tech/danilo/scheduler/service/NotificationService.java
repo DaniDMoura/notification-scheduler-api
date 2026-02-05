@@ -1,11 +1,11 @@
-package tech.danilo.magalums.service;
+package tech.danilo.scheduler.service;
 
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
-import tech.danilo.magalums.dto.SchedulerNotificationDto;
-import tech.danilo.magalums.entity.Notification;
-import tech.danilo.magalums.entity.Status;
-import tech.danilo.magalums.repository.NotificationRepository;
+import tech.danilo.scheduler.dto.SchedulerNotificationDto;
+import tech.danilo.scheduler.entity.Notification;
+import tech.danilo.scheduler.entity.Status;
+import tech.danilo.scheduler.repository.NotificationRepository;
 
 import java.time.LocalDateTime;
 import java.util.List;

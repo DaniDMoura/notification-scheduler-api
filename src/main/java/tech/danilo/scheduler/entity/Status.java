@@ -1,35 +1,33 @@
-package tech.danilo.magalums.entity;
+package tech.danilo.scheduler.entity;
 
 
 import jakarta.persistence.Entity;
-
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "tb_channel")
-public class Channel {
+@Table(name = "tb_status")
+public class Status {
 
     @Id
-    private Long channelId;
+    private Long statusId;
 
     private String description;
 
-
-    public Channel() {
+    public Status() {
     }
 
-    public Channel(Long channelId, String description) {
-        this.channelId = channelId;
+    public Status(Long statusId, String description) {
+        this.statusId = statusId;
         this.description = description;
     }
 
-    public Long getChannelId() {
-        return channelId;
+    public Long getStatusId() {
+        return statusId;
     }
 
-    public void setChannelId(Long channelId) {
-        this.channelId = channelId;
+    public void setStatusId(Long statusId) {
+        this.statusId = statusId;
     }
 
     public String getDescription() {
@@ -41,10 +39,10 @@ public class Channel {
     }
 
     public enum Values {
-        EMAIL(1L, "email"),
-        SMS(2L, "sms"),
-        PUSH(3L, "push"),
-        WHATSAPP(4L, "whatsapp");
+        PENDING(1L, "pending"),
+        SUCCESS(2L, "success"),
+        ERROR(3L, "error"),
+        CANCELED(4L, "canceled");
 
         private Long id;
         private String description;
@@ -53,9 +51,9 @@ public class Channel {
             this.id = id;
             this.description = description;
         }
-        
-        public Channel toChannel() {
-            return new Channel(id, description);
+
+        public Status toStatus() {
+            return new Status(id, description);
         }
     }
 }

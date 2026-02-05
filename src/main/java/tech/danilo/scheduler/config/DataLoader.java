@@ -1,11 +1,11 @@
-package tech.danilo.magalums.config;
+package tech.danilo.scheduler.config;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
-import tech.danilo.magalums.entity.Channel;
-import tech.danilo.magalums.entity.Status;
-import tech.danilo.magalums.repository.ChannelRepository;
-import tech.danilo.magalums.repository.StatusRepository;
+import tech.danilo.scheduler.entity.Channel;
+import tech.danilo.scheduler.entity.Status;
+import tech.danilo.scheduler.repository.ChannelRepository;
+import tech.danilo.scheduler.repository.StatusRepository;
 
 import java.util.Arrays;
 

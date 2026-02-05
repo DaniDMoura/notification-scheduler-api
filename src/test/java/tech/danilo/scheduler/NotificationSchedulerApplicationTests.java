@@ -1,10 +1,10 @@
-package tech.danilo.magalums;
+package tech.danilo.scheduler;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MagalumsApplicationTests {
+class NotificationSchedulerApplicationTests {
 
 	@Test
 	void contextLoads() {

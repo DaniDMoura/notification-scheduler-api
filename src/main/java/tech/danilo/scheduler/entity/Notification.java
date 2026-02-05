@@ -1,4 +1,4 @@
-package tech.danilo.magalums.entity;
+package tech.danilo.scheduler.entity;
 
 import jakarta.persistence.*;
 
