@@ -21,7 +21,7 @@ Estrutura do projeto:
 - src/main/resources: configurações e arquivos estáticos
 
 Pré-requisitos:
-- Java 17+
+- Java 21+
 - Maven 
 - MySQL ou outro banco compatível
 
